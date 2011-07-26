@@ -1,7 +1,7 @@
 Introduction
 ============
 
-This is a package that shows a bug in Plone 4.1 / plone.app.discussion. The dicussion workflows are not missing after a Plone site has been created.
+This is a package that shows a bug in Plone 4.1 / plone.app.discussion. If an add-on package contains 'Products.CMFPlone' in its dependencies, the dicussion workflows are missing after a Plone site has been created.
 
 Steps to reproduce
 ------------------
